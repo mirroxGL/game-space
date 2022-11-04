@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+
+.wrapper {
+   font-family: 'Baloo 2', cursive;
+   height: 100vh;
+   width: 100vw;
+   background: rgb(2, 0, 36);
+   background: linear-gradient(125deg, #08abff 35%, #0efff9 100%);
+}
+
+
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   height: 100%;
+   width: 100%;
+}
+
+.title {
+   margin-top: -100px;
+   font-size: 28px;
+   color: black;
+
+}
+
+.roundsCounter {
+   margin-top: -35px;
+   font-size: 23px;
+   color: white;
+}
+
+.middleContainer {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+}
+
+.vs {
+   display: inline-block;
+   margin: 110px 100px;
+}
+
+.controller__block {
+   border-radius: 20px;
+   background-color: white;
+   width: 450px;
+   height: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.controller__label {
+   margin: 0 auto;
+   font-size: 35px;
+}
+
+.handsBlock {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.optionBtn {
+   cursor: pointer;
+   border: none;
+   background-color: white;
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+}
+
+.optionBtn:hover {
+   transition: 0.15s ease-in-out;
+   background-color: #93fefc;
+
+   .btnImg {
+      transition: 0.15s ease-in-out;
+      width: 80px;
+      height: 80px;
+   }
+}
+
+.btnImg {
+   width: 70px;
+   height: 70px;
+}
+
+.btnComputer {
+   cursor: auto;
+   pointer-events: none;
+}
+
+.selectedOption {
+   margin: 10px auto;
+   font-size: 20px;
+}
+
+.winsCounter {
+   color: white;
+   margin-top: 20px;
+   font-size: 30px;
+}
+
+.resetBtn {
+   font-family: 'Baloo 2', cursive;
+   font-size: 20px;
+   border-radius: 20px;
+   height: 40px;
+   width: 200px;
+   cursor: pointer;
+   border: none;
+   background-color: #fff;
+}
+
+.resetBtn:hover {
+   transition: 0.15s ease-in-out;
+   box-shadow: 4px 3px 10px #0efff9;
+}
