@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# General info
+
+The web platform where you can choose and play different games, 
+such as: "Rock Paper Scissors", "Hangman", " Pong", and others. 
+
+# Technologies
+
+*TypeScript
+
+*Next.js/Redux
+
+*SCSS/HTML
+
 ## Getting Started
 
 First, run the development server:
